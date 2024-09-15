@@ -1,0 +1,4 @@
+public enum TripStatus
+{
+    PENDING, CONFIRMED, IN_PROGRESS,COMPLETED
+}
