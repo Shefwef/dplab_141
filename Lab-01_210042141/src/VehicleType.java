@@ -1,4 +1,4 @@
-public enum VehicleType
-{
-    CAR, LUXURY_CAR, BIKE
+public interface VehicleType {
+    String getType();
+    double getFareMultiplier();
 }

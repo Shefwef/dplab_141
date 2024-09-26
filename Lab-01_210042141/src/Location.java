@@ -26,7 +26,6 @@ public class Location
         return longitude;
     }
 
-    @Override
     public String toString()
     {
         return "Location: " + address + " (Latitude: " + latitude + ", Longitude: " + longitude + ")";

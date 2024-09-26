@@ -40,6 +40,10 @@ public class Driver extends User
         System.out.println(name + " updated location to " + location.getAddress());
     }
 
+    public VehicleType getVehicleType() {
+        return vehicleType;
+    }
+
     @Override
     public void displayUserInfo()
     {

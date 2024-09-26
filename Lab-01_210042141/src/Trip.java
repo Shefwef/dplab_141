@@ -47,9 +47,8 @@ public class Trip
         rider.makePayment(this);
     }
 
-    public double calculateFare()
-    {
-        return rideType.calculateFare(distance);
+    public double calculateFare() {
+        return rideType.calculateFare(distance) * driver.getVehicleType().getFareMultiplier();
     }
 
     public TripStatus getStatus()
